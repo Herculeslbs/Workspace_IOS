@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício Form</title>
+</head>
+
+<body>
+    <h1>Exercício Form</h1>
+    <header>
+        <nav>
+            <h2>Elementos de Formulário</h2>
+            <ul>
+                <li><a href="#">input e label</a></li>
+                <li><a href="#">checkbox e radio</a></li>
+                <li><a href="#">select e datalist</a></li>
+                <li><a href="#">textarea</a></li>
+                <li><a href="#">fieldset e legend</a></li>
+                <li><a href="#">Atributo action do elemento form e elemento output</a></li>
+            </ul>
+        </nav><br>
+        <hr>
+    </header><br>
+    <main>
+        <Fieldset>
+            <legend>Seleção do tipo de carne</legend>
+            <form method="post" action="herculeslbs@gmail.com" name="Churrasco">
+                <label for="ctipocarne">Tipos de carne</label>
+                <input required="required" type="text" id="ctipocarne" name="Quero inserir uma informção sobre churrasco">
+            </Fieldset>
+                <br>
+                <hr>
+            
+                <p>Qual sua cor preferida</p>
+                <input type="radio" id="I" name="cor">
+                <label for="I">Amarelo</label>
+                <input type="radio" id="C" name="cor">
+                <label for="C">Azul</label>
+                <input type="radio" id="D" name="cor">
+                <label for="D">Verde</label><br>
+                <hr>
+            
+                <p>Quais cidades você já visitou</p>
+                <input type="checkbox" id="Cidade1" name="Cidade1" value="Santos">
+                <label for="Cidade1">Santos</label>
+                <input type="checkbox" id="Cidade2" name="Cidade2" value="SaoPaulo">
+                <label for="Cidade2">São Paulo</label>
+                <input type="checkbox" id="Cidade3" name="Cidade3" value="SantoAndre">
+                <label for="Cidade3">Santo André</label>
+                <input type="checkbox" id="Cidade4" name="Cidade4" value="Bahia">
+                <label for="Cidade4">Bahia</label><br>
+                <hr>
+            
+                <label >Qual o melhor time</label>
+                <select name="" id="">
+                    <option value="saoPaulo">São Paulo</option>
+                    <option value="palmeiras">Palmeiras</option>
+                    <option value="corinthians">Corinthians</option>
+                    <option value="saoBernado">São Bernado</option>
+                </select>
+                <br><br><hr>
+                <label for="nivel">Nivel de satisfação</label>
+                1
+                <input type="range" name="nivel" id="nivel" list="valor_01" min="1" max="10">
+                10
+                <datalist id="valor_01">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+                <br><br><hr>
+                <label for="feedback">Feedback</label><br><br>
+                <textarea name="feedback" id="feedback" cols="40" rows="20" placeholder="Deixe aqui o seu Feedback"></textarea>
+                <br><br>
+                <input type="submit" name="Enviar">
+        </form>
+    
+    </main>
+</body>
+<br>
+<hr>
+<footer>
+    &copy; Todos os direitos reservados
+</footer>
+
+</html>
