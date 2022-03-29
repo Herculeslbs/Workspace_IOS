@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet and Love</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Sweet and Love</h1>
+        </header>
+        <hr>
+        <h4>Queremos conhecer melhor os nossos clientes. Por favor, nos ajude com este questionário.</h4>
+        <small>Os campos marcados com asterisco <strong>(*)</strong> são de preenchimento obrigatório.</small>
+        <br><br>
+        <form name="infoUsuario" method="post" id="infoUsuario" action="#">
+            <label for="nome"><strong>* Escerva seu nome:</strong></label>
+            <input autocomplete="off" type="text" size=50 name="nome" id="nome " required="required" />
+            <br><br>
+            <label for="idade"><strong>* Selecione sua idade:</strong></label>
+            <input id="idade" type="number" max="110" min="0" required="required" name="idade" />
+            <br><br>
+            <label for="email"><strong>* Escreva seu e-mail:</strong></label>
+            <input id="email" type="email" required="required" name="email" size="50" autocomplete="off" />
+            <br><br>
+            <p><strong>Você indicaria a loja a um amigo(a) ?</strong></p>
+            <input type="radio" id="sim" name="simnao">
+            <label for="sim">Sim</label>
+            <input type="radio" id="nao" name="simnao">
+            <label for="nao">Não</label>
+            <br><br>
+            <p><strong>O que você mais gostou na loja ?</strong></p>
+            <input value="doces" nome="doces" id="doces" type="checkbox">
+            <label for="doces">Doces</label>
+            <input value="ambiente" nome="ambiente" id="ambiente" type="checkbox">
+            <label for="ambiente">Ambiente</label>
+            <input value="entrega" nome="entrega" id="> entrega" type="checkbox">
+            <label for="Entrega">Entrega(via app)</label>
+            <input value="atendimento" nome="atendimento" id="atendimento" type="checkbox">
+            <label for="atendimento">Atendimento</label>
+            <input value="valores" nome="valores" id="valores" type="checkbox">
+            <label for="valores">Valores</label>
+            <br><br><br>
+            <label for="sobremesaSalgado"><strong>Qual sobremesa ou salgado você comprou no último pedido ?</strong></label>
+            <br><br>
+            <input autocomplete="off" type="text" size=30 name="sobremesaSalgado" id="sobremesaSalgado " />
+            <br><br><br>
+            <label for="loja"><strong>Em qual loja você foi atendido?</strong></label><br><br>
+            <select name="loja" id="loja">
+                <option></option>
+                <option value="aclimacao">Aclimação</option>
+                <option value="liberdade">Liberdade</option>
+                <option value="tatuape">Tatuapé</option>
+                <option value="saoJoaquim">São Joaquim</option>
+            </select>
+            <br><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main><br><br>
+    <footer>&copy; Todos os direitos reservados.</footer>
+</body>
+
+</html>
