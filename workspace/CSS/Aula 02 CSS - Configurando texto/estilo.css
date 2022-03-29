@@ -8,11 +8,24 @@ h1 {
   background-color: #191970;
   color: #e6e6fa;
   font-family: Georgia, "Times New Roman", serif;
+  line-height: 200%;
+  text-shadow: 3px 3px 5px #cccccc;
 }
 h2 {
   background-color: #aeaed4;
   font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
+}
+p {
+  font-size: 0.9em;
+  text-indent: 3em;
+}
+ul {
+  font-weight: bold;
 }
 footer {
   font-family: "Courier New", Courier, monospace;
+  color: #333333;
+  font-size: .75em;
+  font-style: italic;
 }
