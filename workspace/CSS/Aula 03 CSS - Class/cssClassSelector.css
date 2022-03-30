@@ -1,0 +1,20 @@
+@charset "utf-8";
+body { 
+    background-color: pink;
+    
+}
+p {
+    font-size: 0.9em;
+    text-indent: 3em;
+    background-color: royalblue;
+  }
+.corTexto {
+    color: red;
+}
+p.fundo {
+    background-color: sandybrown;
+    color: red;
+}
+li.fundo{
+background-color: white;
+}
