@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body {
+    background-color: white;
+    font-size: 25px;
+    /* display: flex;
+    justify-content: center; */
+}
+div#N1 {
+    background-color: #ff7c70;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+div#N2 {
+    background-color: #b7c9a9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+div#N3 {
+    background-color:  #674d69;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: red;
+    display: flex;
+    justify-content: center;
+}

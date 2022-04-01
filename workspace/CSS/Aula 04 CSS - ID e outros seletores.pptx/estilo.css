@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+* {
+    font-family: 'Palanquin Dark', sans-serif;
+    background-color: pink;
+}
+.esqueci {
+    color: #fbf6b5;
+    
+}
+#esqueci1 {
+    color: #4e3150;
+}
+p#sobrenome {
+    color: #c7777f;
+}
+section p {
+    color: #d6ecdf;
+    font-size: 23px;
+    background-color: #b6dec1;
+
+    
+}
