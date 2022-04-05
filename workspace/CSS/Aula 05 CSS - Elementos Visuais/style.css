@@ -1,0 +1,7 @@
+@charset "utf-8";
+.tracejada {
+    border-width: 3px;
+    border-color: aqua;
+    border-style: dashed;
+    line-height: 500%;
+}
