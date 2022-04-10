@@ -1,0 +1,181 @@
+@charset "utf-8";
+body {
+    
+    margin-left: 5%; 
+    margin-right: 5%;
+    background-color: black;
+  
+    }
+  
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.a {
+border-style: ridge;
+border-width: 0.0em;
+padding: 1%;
+background-color: black;
+color: red;
+font-style: italic;
+margin-bottom: 5%;
+
+}
+ a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-size: 1.1rem;
+}
+main {
+    padding: 3em;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 35px;
+    
+}
+#img2 {
+    display: flex;
+    justify-content: center;
+}
+
+figure{
+    width: 620px;
+    border: 5px solid red;
+    padding: 5px;
+    border-radius: 10px;
+margin-left: 20%;  
+}
+
+figure img{
+    height: 340px; width: 620px;
+    
+}
+
+figcaption{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+h1,h2,p {
+    text-align: center;
+    color: red;
+}
+p {
+    font-size: 1.4em;
+}
+ul {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: red;
+}
+.ul {
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 4%;
+    color: red;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+
+
+
+/*@charset "utf-8";
+
+html, body{
+    margin: 0; padding: 0;
+    width: auto; height: 900px;
+    margin-left: 5%; margin-right: 5%;
+    font-family: Rubik;
+    background-color: rgb(49, 49, 49);
+}
+
+.titulo{
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 0.5%;
+}
+
+.titulo h1{
+    margin-top: 1;
+    font-size: 250%;
+    color: white;
+    font-family: "Copperplate Gothic Light";
+    letter-spacing: 20px;
+}
+
+main{
+    padding: 3em;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 35px;
+}
+
+nav{
+    text-align: left;
+}
+
+a{
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+a:hover{
+    color: rgb(120, 120, 120);
+}
+
+h2{
+    color:rgb(241, 241, 241);
+    text-align: center;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+figure{
+    width: 620px;
+    border: 5px solid rgb(94, 94, 94);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+figure img{
+    height: 340px; width: 620px;
+}
+
+figcaption{
+    text-align: center;
+    color: rgb(190, 190, 190);
+}
+
+ul, p{
+    font-size: 1.4em;
+    color: rgb(190, 190, 190);
+}
+
+footer{
+    text-align: center;
+    padding: 4%;
+}
