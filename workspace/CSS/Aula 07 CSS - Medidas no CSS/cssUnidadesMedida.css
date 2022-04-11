@@ -1,0 +1,71 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#showcase {
+  background-image: url("floresta.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+}
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2em;
+  color: #ff7d10;
+  line-height: 1.6em;
+  font-weight: 600;
+  text-shadow: 3px 3px 5px black;
+}
+#showcase p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #ff7d10;
+  line-height: 1.6em;
+  font-weight: 600;
+  background-color: #fff;
+}
+#showcase .btn {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ff7d10;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 700;
+  background-color: #fff;
+}
+#section-a {
+  padding: 50px;
+  background: #2d2d29;
+  color: #ff7d10;
+  text-align: center;
+}
+img {
+  height: 240px;
+  width: 320px;
+}
+figure {
+  width: 320px;
+  padding: 5px;
+  border: 2px solid #000000;
+  margin-left: 37%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  background-color: #ff7d10;
+}
+figcaption {
+  text-align: center;
+  font-family: Papyrus, fantasy;
+  font-weight: 600;
+}
+div {
+  background-color: #135202;
+}
