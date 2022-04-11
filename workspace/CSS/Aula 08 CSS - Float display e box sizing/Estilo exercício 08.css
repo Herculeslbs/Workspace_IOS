@@ -1,0 +1,92 @@
+@charset "utf-8";
+* {
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: white;
+}
+body {
+  background-color: #3ca2a2;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+header {
+  margin-bottom: 10%;
+  background-color: #3ca2a2;
+}
+#img {
+  clip-path: circle();
+  width: 100px;
+}
+nav {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  background-color: #3ca2a2;
+}
+a {
+  border-width: 1px;
+  padding: 1%;
+  background-color: #215a6d;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 3%;
+}
+h2 {
+    background-color: #215a6d;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    color: white;
+}
+ol {
+    background-color: #3ca2a2;
+    margin-left: 35%;
+    font-weight: 600;
+}
+li {
+    background-color: #3ca2a2;
+    color: white;
+}
+p  {
+    background-color: #3ca2a2;
+}
+section {
+    background-color: #3ca2a2;
+    border: 2px solid #000;
+    box-sizing: border-box;
+
+  
+}
+figure {
+    background-color: #3ca2a2;
+    border: 2px solid #ffffff;
+    width: 410px;
+    padding: 5px;
+}
+img {
+    background-color: #3ca2a2;
+   
+     
+}
+figcaption {
+    background-color: #3ca2a2;
+    text-align: center;
+   
+
+}
+article {
+    background-color: #3ca2a2;
+}
+main {
+    background-color: #3ca2a2;
+}
+footer {
+    background-color: #215a6d;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    line-height: 500%;
+    font-size: small;
+}
