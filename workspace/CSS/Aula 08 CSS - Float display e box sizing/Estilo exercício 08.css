@@ -17,6 +17,7 @@ header {
 #img {
   clip-path: circle();
   width: 100px;
+  height: 100px;
 }
 nav {
   text-align: center;
@@ -89,4 +90,36 @@ footer {
     font-weight: 600;
     line-height: 500%;
     font-size: small;
+}
+.vf2 {
+  float: left;
+}
+.p1 {
+  text-align: center;
+  margin-top: 8%;
+}
+.section1 {
+  padding: 80px;
+}
+.vf3 {
+  float: right;
+}
+.p2 {
+  text-align: center;
+  margin-top: 8%;
+}
+.section2 {
+  padding: 80px;
+}
+.vf4 {
+  float: left;
+}
+.vf5 {
+  float: right;
+}
+.p3 {
+  clear: none;
+}
+.section3 {
+  padding: 80px;
 }
