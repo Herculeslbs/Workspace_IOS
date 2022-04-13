@@ -1,0 +1,53 @@
+@charset "utf-8";
+body {
+
+}
+header {
+    margin-bottom: 10%;
+}
+h1 {
+    color: green;
+    text-align: center;
+    line-height: 350%;
+}
+#imgheader1 {
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+::selection {
+    color: white;
+    background-color: red;
+  }
+  p::selection {
+    background-color: rgb(0, 255, 34);
+  }
+  p::first-letter {
+    font-size: 200%;
+    background-color: #8A2BE2;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: rgb(0, 179, 0);
+        opacity: 0.5;
+    }
+    .mylist li:first-child {
+        background: rgb(0, 179, 0);
+        }
+        .mylist li:nth-child(4) {
+        background: rgb(0, 179, 0);
+        }
+        .mylist li:nth-child(6) {
+            background: rgb(0, 179, 0);
+            }
+        .mylist li:last-child {
+        background: rgb(0, 179, 0);
+        }
+        img {
+            width: 500px;
+            height: 300px;
+        }
+       
