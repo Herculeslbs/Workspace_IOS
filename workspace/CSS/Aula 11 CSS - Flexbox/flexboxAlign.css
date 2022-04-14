@@ -1,0 +1,71 @@
+@charset "utf-8";
+body {
+padding: 0em 2em;
+background-image: url('cidade.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+
+}
+.container div {
+  border: 3px rgb(255, 255, 255) solid;
+}
+.item-box-0 {
+    flex: 4;
+    order: 1;
+    align-self: flex-end;
+    margin-top: 2%;
+    background-color: black;
+  }
+  
+.item-box-1 {
+  flex: 2;
+  order: 2;
+  background-color: black;
+ 
+}
+.item-box-2 {
+  flex: 2;
+  order: 3;
+  background-color: black;
+  
+}
+.item-box-3 {
+  flex: 2;
+  order: 4;
+  background-color: black;
+}
+img {
+    width: 200px;
+    height: 150px;
+    margin-left: 25%; 
+}
+#img1 {
+    width: 200px;
+    height: 150px;
+    margin-left: 36%; 
+
+}
+header  {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 5%;
+    line-height: 400%;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+p {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
