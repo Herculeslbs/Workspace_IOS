@@ -1,7 +1,7 @@
 @charset "utf-8";
 body {
 padding: 0em 2em;
-background-image: url('cidade.jpg');
+background-image: url('./Img/cidade.jpg');
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;

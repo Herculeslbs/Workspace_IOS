@@ -9,7 +9,7 @@ header {
   margin-left: 3%;
   margin-right: 3%;
   padding: 2em;
-  background-image: url(header.png);
+  background-image: url(./imgExercício09/header.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
@@ -28,7 +28,7 @@ h1 {
   padding: 2em;
   margin-left: 3%;
   margin-right: 3%;
-  background-image: url(imgfundo.jpg);
+  background-image: url(./imgExercício09/imgfundo.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;

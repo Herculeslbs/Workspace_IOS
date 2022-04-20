@@ -55,6 +55,7 @@ span {
 }
 img {
   width: 100%;
+
 }
 .card {
   display: grid;
@@ -97,11 +98,22 @@ img {
   margin-top: 2rem;
   cursor: pointer;
   font-weight: 500;
+  margin: 5%;
 }
 .btn:hover {
   opacity: 0.8;
 }
 h3 {
     color: #b50d10;
+    text-align: center;
+}
+p {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: white;
+  line-height: 300%;
+  font-weight: 400;
 }
 
