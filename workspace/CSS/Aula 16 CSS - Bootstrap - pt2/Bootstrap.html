@@ -8,13 +8,241 @@
       integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
       crossorigin="anonymous"
     />
-    <title>Bootstrap</title>
+    <title>Bootstrap 2</title>
   </head>
-  <body>
+      <!--Painel de navegação inicio-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Made in Favela</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Outros
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Projeto</a></li>
+                <li><a class="dropdown-item" href="#">Contato</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Certificados</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Since 2022</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Procurar</button>
+          </form>
+        </div>
+      </div>
+    </nav>    
+  
+  <body class="p-4 " style="font-size: large; background-image: url(ImgExercício16/fundofavela.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
 
+    <header class="mt-5 pb-4 bg-dark">
+      <div class="container-fluid py-3">
+        <h1 class="display-5 fw-bold text-light" >Bem-vindo ao Made in Favela</h1>
+        <p class="col-md-8 fs-4 text-light">
+            <span class="fw-bold"> Quais beneficios em cadastrar minha comunidade?</span> <br>
+            Os critérios adotados em 2021 foram mais restritivos. Pessoas que moram sozinhas receberão R$ 150; famílias com mais de uma pessoa, R$ 250; mulheres chefes de famílias, R$ 375. Os valores são menores que os pagos em 2020, quando as parcelas iniciais foram de R$ 600. Mães chefes de família recebiam R$ 1,2 mil.
+        </p>
+        <a target="blanc" class="btn btn-primary btn-lg" href="https://brasilescola.uol.com.br/brasil/contrastes-nas-favelas.htm" role="button"
+          >Saiba Mais</a
+        >
+      </div>
+    </header>  
 
+    <section class="container bg-dark text-light">
+      <h1 class="pb-2 mt-4 mb-2 border-bottom text-center">Cadastramento da Comunidade</h1>
+      <form action="#">
+        <label class="form-label fw-bold">Nome Completo <span class="text-danger">(Representante Social)</span>
+        </label>
+        <input type="text" class="form-control" placeholder="Adicione o Nome" />
+        <br>
+        <label class="form-label fw-bold">E-mail</label>
+        <input
+          type="text"
+          class="form-control form-control"
+          placeholder="Adicione o E-mail"
+        />
+        <br>
+        <label class="form-label fw-bold">Nome da Comunidade</label>
+        <input
+          type="email"
+          class="form-control form-control"
+          placeholder="Adicione o Nome da Comunidade"
+        />
+        <br>
+        <label for="exampleDataList" class="form-label fw-bold">Cidade</label>
+        <input
+          class="form-control"
+          list="datalistOptions"
+          id="exampleDataList"
+          placeholder="Digite uma cidade..."
+        />
+        <datalist id="datalistOptions">
+          <option value="Belo Horizonte"></option>
+          <option value="São Paulo"></option>
+          <option value="Santos"></option>
+          <option value="Porto Alegre"></option>
+          <option value="Recife"></option>
+          <option value="Outra"></option>
+        </datalist>
+        <br>
+        <label class="form-label fw-bold">Observação</label>
+        <textarea
+          class="form-control"
+          placeholder="Adicione uma Mensagem"
+        ></textarea>
+        <br />
+        <hr />
+        <label class="form-label">Enviar arquivo PDF do abaixo assinado</label>
+        <input type="file" />
+        <br />
+        <span class="form-text"> Apenas arquivos PDF. </span>
+        <br />
+        <hr />
+        <label for="exampleColorInput" class="form-label"
+          >Seletor de Cores</label
+        >
+        <input
+          type="color"
+          class="form-control form-control-color"
+          id="exampleColorInput"
+          value="#021BFC"
+          title="Escolha a sua Cor"
+        />
+        <br />
+        <hr />
+        <button type="submit" class="btn-outline-secondary btn-lg">
+          Enviar
+        </button>
+        <br />
+        <hr />
+      </form>
+     </section>
 
-    
+     <section class="container bg-dark text-light">
+      <h1 class="pb-2 mt-4 mb-2 border-bottom text-center">Lista de Comunidades Cadastradas</h1>
+
+      <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Comunidade</th>
+            <th scope="col">Cidade</th>
+            <th scope="col">Habitantes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Rocinha</td>
+            <td>Rio de Janeiro</td>
+            <td>150 mil</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Sol Nascente</td>
+            <td>Ceilândia</td>
+            <td>88 mil</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Rio das Pedras</td>
+            <td>Rio de Janeiro</td>
+            <td>66 mil</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Coroadinho</td>
+            <td>São Luís</td>
+            <td>54 mil</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <div class="p-2 container bg-dark text-light" style="margin-bottom: 1%;">
+
+      <h1 class="pb-2 mt-2 mb-2 border-bottom text-center">Comunidades Cadastradas</h1>
+
+      <div class="card float-start me-2" style="width: 20rem;">
+      <img src="./ImgExercício16/rocinha.jpg" / width="100px" height="200" class="card-img-top" alt="...">
+      <div class="card-body bg-dark ">
+      <h4 class="card-title text-light">Rocinha</h4>
+      <p class="card-text text-light">O IOS lançou uma edição especial dos seus cursos, que vão acontecer de forma online, com encontros presenciais (mediante orientações de saúde de cada região) e,
+     claro, totalmente gratuitos.</p>
+      <a href="#" class="btn btn-primary">Saiba Mais</a>
+      </div>
+      </div>
+
+      <div class="card float-end me-2" style="width: 20rem;">
+        <img src="./ImgExercício16/solnascente.jpg" / width="100px" height="200" class="card-img-top" alt="...">
+        <div class="card-body bg-dark">
+        <h4 class="card-title text-light">Sol Nascente</h4>
+        <p class="card-text text-light">O IOS lançou uma edição especial dos seus cursos, que vão acontecer de forma online, com encontros presenciais (mediante orientações de saúde de cada região) e,
+       claro, totalmente gratuitos.</p>
+        <a href="#" class="btn btn-primary">Saiba Mais</a>
+        </div>
+        </div>
+
+        <div class="card float-start me-2" style="width: 20rem;">
+          <img src="./ImgExercício16/riopedra.jpg" / width="100px" height="200" class="card-img-top" alt="...">
+          <div class="card-body bg-dark">
+          <h4 class="card-title text-light">Rio das Pedras</h4>
+          <p class="card-text text-light">O IOS lançou uma edição especial dos seus cursos, que vão acontecer de forma online, com encontros presenciais (mediante orientações de saúde de cada região) e,
+         claro, totalmente gratuitos.</p>
+          <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+          </div>
+  
+          <div class="card me-2" style="width: 20rem;">
+            <img src="./ImgExercício16/coroadinho.jpg" / width="100px" height="200" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+            <h4 class="card-title text-light">Coroadinho</h4>
+            <p class="card-text text-light">O IOS lançou uma edição especial dos seus cursos, que vão acontecer de forma online, com encontros presenciais (mediante orientações de saúde de cada região) e,
+           claro, totalmente gratuitos.</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+            </div>
+      </div>    
+      
+    <section class="container bg-dark text-light" >
+      <h1 class="pb-2 mt-2 mb-2 border-bottom text-center">Mais Informações</h1>
+      <div class="list-group p-3" style="width: 30rem; margin-left: 30%;">
+        <button type="button" class="list-group-item list-group-item bg-primary text-light fw-bold" aria-current="true">
+        Saiba Mais
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">Rocinha</button>
+        <button type="button" class="list-group-item list-group-item-action">Sol Nascente</button>
+        <button type="button" class="list-group-item list-group-item-action">Rio das Pedras</button>
+        <button type="button" class="list-group-item list-group-item-action">Coroadinho</button>
+       </div>
+    </section>
+
+    <footer class="container bg-dark text-light" style="margin-top: 1%;">
+
+      <ul class="list-group list-group-flush text-center" style="width: 30rem; margin-right: 30%; margin-left: 30%;">
+        <li class="list-group-item bg-dark text-light">Contatos</li>
+        <li class="list-group-item bg-dark text-light">Sobre</li>
+        <li class="list-group-item bg-dark text-light">Sac</li>
+        <li class="list-group-item bg-dark text-light">Informações</li>
+       </ul>
+       <hr>
+       <p style="line-height: 300%;" class="text-center fw-bold">Todos os direitos reservados &reg; Hercules Lima 2022</p>
+      </footer>
+        
     <script>
         src =
           "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js";
