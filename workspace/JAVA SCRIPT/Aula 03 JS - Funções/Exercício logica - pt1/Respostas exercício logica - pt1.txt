@@ -21,3 +21,110 @@ Menina-2 azul/Vivian/10/limão/FPS 55/pássaros
 Menina-3 amarelo/Bruna/9/maracujá/FPS 40/ cachorros
 
 Menina-4 verde/Ana/8/morango/FPS 50/peixes
+
+EXERCÍCIOS DE LÓGICA PARA DESENVOLVER EM CASA
+RESPOSTAS:
+
+1°)
+Sálario base R$ 2.000.
+
+O sálario com reajuste é R$2.260.
+
+2°)
+A media da turma é (7.5)
+
+A média está acima da mediana que é 7
+
+3°) 
+você está na porta da cozinha, o armario está na sua frente, geladeira ao lado do armario e utensilhos em cima da mesa ao centro da cozinha.
+
+ande 10 passos para frente.
+segure a maçaneta da porta.
+dê um passo para trás e puxe a maçaneta.
+se a porta estiver meio aberta, abrir mais, senão, deixar como está.
+
+olhar para cima e visualizar a prateleira superior.
+verificar se há [Chocolate em pó, açucar, farinha de trigo, óleo, leite, fermento em pó].
+se tiver algum desses itens, elevar a mão até o item, segurar, virar 180 graus com o item na mão, andar 5 passos, virar 45 graus a direita, andar 5 passos, pare, Coloque o item na mesa. Senão tiver nenhum desses itens na prateleira de superior, verifique as outras prateleiras usando o passo 2 e 3 da função verificarIngredientes.
+
+vire 180 graus
+ande 5 passos
+vire 45 graus para a esquerda
+ande 4 passos
+vire 45 graus para a esquerda
+ande 4 passos e pare.
+vire 45 graus para direita.
+segure a maçaneta da porta da geladeira
+dê um passo para trás e puxe a maçaneta.
+se a porta estiver meio aberta, abrir mais, senão, deixar como está.
+
+visualizar as prateleiras da geladeira
+procurar ovos.
+se você achou os ovos, pegar 2 ovos na mão e segurar, senão, continuar procurando.
+dê um passo para trás, segurar na porta da geladeira e fechar.
+vire 180 graus.
+ande 5 passos
+vire 45 graus a direita.
+ande um passo e pare.
+coloque os dois ovos em cima da mesa.
+
+pegar uma vasilha que está em cima da mesa e colocar próximo a você ainda em cima da mesa.
+pegar uma xicará para medir as propoções da receita, colocar ao lado da vasilha.
+pegar xicará na mão, enfiar no pote onde tem chocolate em pó e encher a xicará com o cholate.
+colocar o chocolate em pó que está na xicará, na vasilha.
+enfiar a xicará no pote onde tem açucar encher a xicará com o açucar.
+colocar o acuçar que está na xicará dentro da vasilha.
+enfiar a xicará no pote onde tem farinha de trigo encher a xicará com a farinha de trigo.
+colocar a farinha de trigo que está na xicará dentro da vasilha.
+repetir os passos 7 e 8.
+visualizar o leite, colocar a xicará em cima da mesa, pegue o leite, coloque leite na xicará até estar quase cheia.
+pegar xicará na mão, colocar o leite que está na xicará dentro da vasilha.
+repetir os passos 10 e 11.
+coloque a xicará em cima da mesa.
+visualizar a colher e pegar a colher na mão.
+visualizar Óleo e pegar o óleo com a outra mão.
+coloque Óleo na colher até estar quase cheia.
+colocar o óleo da colher dentro da vasilha.
+colocar o recepiente do óleo em cima da mesa novamente.
+visualizar o fermento e pegar o fermento com a mão vazia.
+colocar fermento na colher até que esteja quase cheia.
+colocar o fermento dentro da vasilha.
+colocar o recepiente do fermento em cima da mesa e a colher.
+visualizar um dos ovos e pegar na mão.
+quebrar ovo com cuidado e colocar dentro da vasilha sem deixar cair cascas.
+colocar todas as cascas de ovo deve estar em cima da mesa.
+pegar outro ovo e repetir o passo 24 e 25.
+
+visualize a colher e pegue a colher na mão.
+leve a colher a vasilha.
+bata a massa com a colher em ritmo moderado e constante.
+verificar a espessura da massa. Se estiver boa, pare de bater, senão continue.
+retirar a colher da vasilha e colocar em cima da mesa.
+visualizar a forma, pegar a vasilha que contem a massa, e vá até a forma.
+coloque a massa dentro da forma com cuidado para não deixar cair.
+pegar forma na mão
+
+vire 180 graus.
+ande 1 passo.
+vire 45 graus para a esquerda.
+ande 4 passos.
+repita o 3ºPasso.
+repita o 4ºPasso.
+vire 45 graus para a direita.
+dê um passo para frente e segure a maçaneta do fogão.
+dê um passo para trás e puxe a maçaneta.
+se a porta estiver meio aberta, abrir mais, senão, deixar como está.
+
+coloque a forma dentro do fogão
+feche a porta do fogão.
+visualizar os botões do fogão
+ajustar o botão de graus para 180 graus.
+apertar botão para o fogão ligar.
+esperar 30 minutos.
+verificar bolo
+se o bolo estiver bom, desligar forno. Senão, deixar assar mais.
+repetir os passos 9 e 10 da função chegarNoFogao.
+deixar o forno esfriar.
+se o forno estiver frio, retirar forma. Senão esperar mais.
+colocar forma de bolo na mesa.
+
