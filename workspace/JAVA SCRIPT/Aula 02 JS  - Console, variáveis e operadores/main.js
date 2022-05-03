@@ -52,3 +52,4 @@ console.log(teste1 > teste2); // Operador de comparação
 console.log(teste1 < teste2); // Operador de comparação
 console.log(teste1 && teste2); // Operador lógico
 console.log(valor1 && valor2); // Operador lógico
+
