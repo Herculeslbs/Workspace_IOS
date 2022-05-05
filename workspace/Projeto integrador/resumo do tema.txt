@@ -1,0 +1,2 @@
+Nomes: Renata, Cassio , Hercules ,Breno, Samuel
+Vamos criar um site institucional falando sobre um partido político ficticio, apontando noticias, candidatos(ficticios) e o que o partido vai agregar.
