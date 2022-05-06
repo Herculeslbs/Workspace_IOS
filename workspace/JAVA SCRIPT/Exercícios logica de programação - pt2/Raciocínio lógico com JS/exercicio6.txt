@@ -1,0 +1,5 @@
+             Alberto  Bernado  Custódio  Danilo    
+Pianista        X        y         y        X
+Violinista      y        X         y        y
+Saxofonista     y        y         y        y
+Baterista       y        y         X        y
