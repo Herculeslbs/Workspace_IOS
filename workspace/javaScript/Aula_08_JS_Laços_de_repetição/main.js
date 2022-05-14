@@ -47,7 +47,7 @@ for(let j = 0; j < frutas.length; j++){
     console.log(`Nome: ${frutas[j]}`)
 }
 
-//Laços de repetição e arrays
+//Laços de repetição e arrays (Exercicio Sala)
 const carros = ['Gol','Voyage','Saveiro','Golf','Nivus','Passat','jetta','Tiguan']
 
 for(let j = 0; j < carros.length; j+=2){
