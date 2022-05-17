@@ -72,7 +72,7 @@ const meuArray = [
 ];
 
 console.log(
-    meuArray.filter((genero) =>{
+    meuArray.find((genero) =>{
         return genero.sexo === 'feminino'
     })
 );
@@ -118,8 +118,15 @@ alunos.forEach((lista) => console.log(lista.nome))
 // Metodo filter()
 let filtroNotas = alunos.filter((notas) => {
     return notas.nota >= 6;
-})
-
+});
 console.log(filtroNotas);
+
+// Metodo find()
+console.log(
+    alunos.find((reprovado) =>{
+        return reprovado.nota <= 5
+    })
+);
+
 
 
