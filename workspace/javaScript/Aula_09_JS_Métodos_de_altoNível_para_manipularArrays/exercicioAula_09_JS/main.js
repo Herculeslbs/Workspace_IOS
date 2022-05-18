@@ -1,4 +1,4 @@
-alert(`Conferir Console`)
+//alert(`Conferir Console`)
 
 const alunos = [
     {
@@ -45,9 +45,33 @@ const alunos = [
 //Faça a soma de todas as notas dos alunos e retorne a média informando se os alunos ficaram acima da média que é 7
 
 // Metodo forEach()
-alunos.forEach(minhaFuncao);
+alunos.forEach((lista) => console.log(lista.nome,lista.ano));
 
-function minhaFuncao(){
-    console.log(`Nome: ${alunos.nome}`);
-    console.log(`Ano: ${alunos.ano}`);
+console.log(`Retorne apenas os alunos do 2° ano`);
+// Metodo filter()
+let filtroTurma = alunos.filter((filtroTurma) => {
+    return filtroTurma.ano.match ('2°'); 
+});
+filtroTurma.forEach((i)=> console.log(i.nome));
+
+
+
+console.log('Mostrando se a turma passou ou não passou:')
+
+const notaAlunos = alunos.map((notaValores) => {return notaValores.nota}).reduce(calcularNotas)
+
+function calcularNotas(nota1, nota2) {
+    return nota1 + nota2
 }
+
+function mediaSala(totalNotas) {
+    if (totalNotas / 6 >= 7) {
+        console.log('Turma aprovada, pois a nota é maior ou igual a 7')
+    }
+
+    else {
+        console.log('Turma reprovada, pois a nota é menor que 7')
+    }
+}
+
+mediaSala(notaAlunos)
