@@ -1,4 +1,4 @@
-//alert(`Conferir Console`)
+alert(`Conferir Console`);
 
 const alunos = [
     {
@@ -41,7 +41,6 @@ const alunos = [
 
 //Retorne somente o nome e o ano dos alunos
 //Retorne apenas os alunos do segundo ano
-
 //Faça a soma de todas as notas dos alunos e retorne a média informando se os alunos ficaram acima da média que é 7
 
 // Metodo forEach()
