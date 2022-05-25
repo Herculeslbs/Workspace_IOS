@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="#" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Exercício 14 js</title>
+    </head>
+    <body>
+        <header>
+            <h1>Cadastro de Clientes</h1>
+        </header>
+        <section class="container">
+            <form id="my-form">
+                <h1>Adicionar Cliente</h1>
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required />
+                </div>
+                <div>
+                    <label for="dataNasc">Data de Nascimento:</label>
+                    <input type="date" id="dataNasc" required />
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" required />
+                </div>
+                <input class="btn" type="submit" value="Incluir" />
+                <input class="btn1" type="submit" value="Excluir" />
+
+            </form>
+            <ul id="users"></ul>
+        </section>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
