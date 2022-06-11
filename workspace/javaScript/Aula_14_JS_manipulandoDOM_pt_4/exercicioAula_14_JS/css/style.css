@@ -2,84 +2,130 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    
 }
-ul {
-    list-style: none;
-}
-ul li {
-    padding: 5px;
-    background: #f4f4f4;
-    margin: 5px 0;
-}
+
+
 header {
-    background: #f4f4f4;
+    background-color: black;
     padding: 1rem;
     text-align: center;
 }
-.container {
+#hh1 {
+    color: white;
+}
+#h1 {
+  color: black;
+  padding: 0.5rem; 
+  background-color: #ffffffab;
+  text-align: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+#main {
+    background-image: url(./img/CINEMA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#container {
     margin: auto;
     width: 500px;
     overflow: auto;
     padding: 3rem 2rem;
+    margin-left: 60%;
+       
 }
-#my-form {
+
+#form {
     padding: 2rem;
-    background: #f4f4f4;
+    background: #ffffffab;
+    
 }
-#my-form label {
-    display: block;
+
+#form label {
+    Display: block;
+   
 }
-#my-form input[type='text'] {
+
+#form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(204, 204, 204, 0.596);
+    
+}
+
+#form input[type='date'] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    
 }
-#my-form select {
-    width: 20%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-.btn {
+
+#incluir {
     display: block;
     width: 100%;
     padding: 10px 15px;
     border: 0;
-    background: #333;
+    background: green;
     color: #fff;
     border-radius: 5px;
     margin: 5px 0;
+    
 }
-.btn1 {
+
+#excluir {
     display: block;
     width: 100%;
     padding: 10px 15px;
     border: 0;
-    background: #333;
+    background: red;
     color: #fff;
     border-radius: 5px;
     margin: 5px 0;
+   
 }
-.btn1:hover {
+
+.sub:hover {
     background: #444;
 }
 
-.btn:hover {
-    background: #444;
-}
 .bg-dark {
     background: #333;
     color: #fff;
 }
+
 .error {
     font-size: 0.8rem;
-    background: #fff;
     color: red;
+    font-weight: 600;
+}
+
+#users {
+    background-color: #ffffffab;
+    padding: 1.8em;
+    list-style: decimal-leading-zero;
+    
+}
+
+#modo {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }

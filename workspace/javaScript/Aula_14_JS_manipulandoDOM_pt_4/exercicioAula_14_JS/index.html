@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="shortcut icon" href="#" />
-        <link rel="stylesheet" href="./css/style.css" />
-        <title>Exercício 14 js</title>
-    </head>
-    <body>
-        <header>
-            <h1>Cadastro de Clientes</h1>
-        </header>
-        <section class="container">
-            <form id="my-form">
-                <h1>Adicionar Cliente</h1>
-                <div>
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" required />
-                </div>
-                <div>
-                    <label for="dataNasc">Data de Nascimento:</label>
-                    <input type="date" id="dataNasc" required />
-                </div>
-                <div>
-                    <label for="email">E-mail:</label>
-                    <input type="text" id="email" required />
-                </div>
-                <input class="btn" type="submit" value="Incluir" />
-                <input class="btn1" type="submit" value="Excluir" />
 
-            </form>
-            <ul id="users"></ul>
-        </section>
-        <script src="./js/main.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Manipulando dom Exercício 14</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1 id="hh1">Dev_Cine</h1>
+    </header>
+    <main id="main">
+    <section id="container">
+        <h1 id="h1">Reserva de Ingressos</h1>
+        <form id="form">
+            <div class="msg"></div>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+            </div><br>
+            <div><label for="email">E-mail:</label>
+                <input type="text" id="email" required>
+            </div>
+            <div class="msg_email"></div>
+            <br>
+            <div>
+                <label for="date">Data de Nascimento:</label>
+                <input type="date" id="date" required>
+            </div><br>
+            <label for="modo">Escolha o tipo:</label>
+            <select name="" id="modo">
+                <option value="Básico">Básico</option>
+                <option value="VIP">Comfort</option>
+                <option value="Camarote">Premium</option>
+            </select>
+            <input type="submit" id="incluir" value="Cadastrar">
+        </form>
+        <ul id="users"></ul>
+        <button id="excluir">Excluir Cadastro</button>
+    </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados &#174; Hercules Lima</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>

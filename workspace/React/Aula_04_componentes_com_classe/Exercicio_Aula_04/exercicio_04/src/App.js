@@ -1,32 +1,17 @@
-import Nota from './componentes/Nota';
-import Nome from './componentes/Nome';
 import './App.css';
+import { Component } from 'react';
+import Notas from './Components/Notas';
+import Nome from './Components/Nome';
 
-function App ()
-{
-	return (
-		<div className="main-app">
-			<div>
-				<Nome aluno="Diego"/>
-				<Nota notas={ [ 7, 8, 4, 6 ] }/>
-			</div>
-
-			<div>
-				<Nome aluno="João"/>
-				<Nota notas={ [ 10, 8, 9, 7 ] }/>
-			</div>
-
-			<div>
-				<Nome aluno="Maria"/>
-				<Nota notas={ [ 1, 2, 10, 6 ] }/>
-			</div>
-
-			<div>
-				<Nome/>
-				<Nota/>
-			</div>
-		</div>
-	)
+export class App extends Component {
+  render() {
+    return (
+      <div className='container'>
+        <Nome />
+        <Notas />
+      </div>
+    );
+  }
 }
 
 export default App;
