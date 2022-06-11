@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tiro+Bangla&display=swap');
+
+html, body
+{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Joan', serif;
+}
+
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card
+{
+    border-radius: 10px;
+    box-shadow: -1px 1px 3px rgba( 0, 0, 0, 0.25 );
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.center-text
+{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header
+{
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.header .header-title
+{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.header .header-buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header .header-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header .header-button:hover
+{
+    cursor: pointer;
+}
+
+.task-list .task-title
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.task-list .task-item
+{
+    list-style: none;
+    display: flex;
+    padding: 8px;
+    margin-bottom: 1rem;
+}
+
+.task-list .item-title
+{
+    margin: 0;
+}
+
+.task-list .item-text
+{
+    padding: 0 2rem;
+}
+
+.task-list .complete
+{
+    border-left: 8px solid green;
+}
+
+.task-list .pending
+{
+    border-left: 8px solid orange;
+}
+
+.task-list .item-content
+{
+    flex: 1 0 90%;
+}
+
+.task-list .item-buttons
+{
+    flex: 1 0 10%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.task-list .item-button:hover
+{
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+.modal-background
+{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba( 0, 0, 0, 0.5 );
+}
+
+.modal-content
+{
+    background-color: #ffffff;
+    width: 640px;
+    height: 480px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+
+.modal-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.modal-body
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.modal-close
+{
+    width: fit-content;
+    height: fit-content;
+}
+
+.modal-close:hover
+{
+    cursor: pointer;
+}
+
+.input-field
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-title
+{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.input-datetime
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-datetime *
+{
+    flex-basis: 49%;
+}
+
+.task-input
+{
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.task-confirm
+{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 8px 24px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #3489eb;
+    border-radius: 8px;
+    border: none;
+    color: #fefefe;
+    transition: all 0.3s ease;
+}
+
+.task-confirm:hover
+{
+    transform: scale(1.05);
+}
