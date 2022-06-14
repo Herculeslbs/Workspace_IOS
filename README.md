@@ -1,5 +1,5 @@
-# Meu site Esse é um tutorial para mostrar como trabalhar com
-o **Git** e o **GitHub**
+# Este é um repositório dedicado a aulas praticas e exercícios práticos.  
 
-## Para o que serve esse repositório? Esse repositório serve
-para aprender a usar o **Git** e o **GitHub**
+
+## Curso Desenvolvedor Web.
+**IOS - Instituto da Oportunidade Social - 2022.**
