@@ -1,0 +1,32 @@
+1º React:
+
+O React é uma biblioteca do JavaScript mais utilizada, ele é um dos mais utilizado por conta da sua facilidade de trabalho e a eficiência da interação com o usuário.
+
+https://www.hostinger.com.br/tutoriais/o-que-e-react-javascript?ppc_campaign=google_performance_max&gclid=Cj0KCQjwwJuVBhCAARIsAOPwGASIYgnu7Mk1FeVQursMmKvYYp7HWB4T-6NuoWPduysIsFZD7FoUMBQaAqPxEALw_wcB
+
+2º Diferença de biblioteca e Framework:
+
+A diferença entre a biblioteca e o Framework é o controle que ambas fornece, ao usar uma biblioteca você possuo mais controle das aplicações, agora se tratando do Framework, o Framework se encarregado do uso das aplicaçõe do código.
+
+https://www.freecodecamp.org/portuguese/news/a-diferenca-entre-um-framework-e-uma-biblioteca/#:~:text=A%20diferen%C3%A7a%20t%C3%A9cnica%20entre%20um,est%C3%A1%20ao%20encargo%20do%20fluxo.
+
+3º Props:
+
+
+Os Props são entradas que não podem ser alteradas, e todos os componentes obrigatoriamente, devem ler as Props e não podem alterar seus valores.
+
+https://www.freecodecamp.org/portuguese/news/componentes-funcionais-props-e-jsx-em-react-tutorial-de-react-js-para-iniciantes/
+
+https://www.lewagon.com/pt-BR/blog/react-componentes-e-props
+
+4º hooks:
+
+Hooks serve como um armezanamento lógico em que podemos utilizar ou reutilizar nos componentes, o Hooks permite o uso de vários recursos simples nas funções.
+
+https://www.alura.com.br/artigos/react-hooks?gclid=Cj0KCQjwwJuVBhCAARIsAOPwGASuE2BFbpGx2aC_Zt7PJTqARCzMXK6dHqjlccf6m-KHejh1N7-DGIkaAjbXEALw_wcB
+
+5º componentes
+
+Os componente no React é como funções no Java Script, no React há dois tipos de componentes, funcional e de classes, Um componente é um bloco de código reutilizável e independente, que divide a interface do usuário em partes menores, em vez de criar tudo de uma vez só em um único arquivo, os componentes permite divide em seções. 
+
+https://www.freecodecamp.org/portuguese/news/componentes-funcionais-props-e-jsx-em-react-tutorial-de-react-js-para-iniciantes/
