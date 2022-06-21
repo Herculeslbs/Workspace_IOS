@@ -8,4 +8,3 @@ public class OperLog {
 } // fim da classe OperLog
 
 
-     
