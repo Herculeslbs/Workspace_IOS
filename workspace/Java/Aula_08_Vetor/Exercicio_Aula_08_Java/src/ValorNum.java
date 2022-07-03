@@ -28,7 +28,8 @@ public class ValorNum {
                        
 		 int vetor1[] = new int[vetor.length];
 		 
-		 for(int i = 0; i < vetor.length; i++) vetor1[i] = vetor[i];  
+		 for(int i = 0; i < vetor.length; i++) 
+			 vetor1[i] = vetor[i];  
 		
    		 for(int i = 0; i < vetor.length; i++) {
 			System.out.print(" [" + vetor1[i] + "] "  );
